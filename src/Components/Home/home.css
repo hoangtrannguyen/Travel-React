@@ -86,6 +86,7 @@
   color: var(--textColor);
   font-size: 18px;
   padding-bottom: 10px;
+  padding-left: 5px;
 }
 .home .homeContent .cardDiv .input {
   height: 40px;

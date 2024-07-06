@@ -157,7 +157,20 @@
 
 //+===========================
 
-@media screen and (min-width:500px) {
+
+
+@media screen and (min-width:100px) {
+
+    .secContent{
+        grid-template-columns: repeat(1,1fr);
+
+        .singleDestination{
+            height: auto;
+        }
+    }
+}
+
+@media screen and (min-width:600px) {
     .title{
         font-size: 1.5rem;
 
@@ -175,7 +188,7 @@
     }
 }
 
-@media screen and (min-width:840px) {
+@media screen and (min-width:800px) {
     .secContent{
         grid-template-columns: repeat(3,1fr);
 
